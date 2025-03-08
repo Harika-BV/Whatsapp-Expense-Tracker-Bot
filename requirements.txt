@@ -1,0 +1,9 @@
+flask
+twilio
+langchain
+openai
+pandas
+gspread
+oauth2client
+python-dotenv
+langchain_openai
