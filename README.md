@@ -58,7 +58,7 @@ python src/app.py
 ngrok http 500
 ```
 
-## 📞 8. Connect Twilio Webhook
+## 📞 7. Connect Twilio Webhook
 
 ### Copy the Ngrok HTTPS URL and set it as your Twilio Webhook
 
@@ -70,7 +70,7 @@ ngrok http 500
 https://your-ngrok-url/webhook
 ```
 
-## 🎯 9. How to Use
+## 🎯 8. How to Use
 Once the bot is live, you can interact with it via WhatsApp. Just send a message to your Twilio number, and the bot will process your request using AI.
 
 ### 📌 Basic Commands
