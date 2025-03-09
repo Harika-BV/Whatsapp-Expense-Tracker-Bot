@@ -19,8 +19,6 @@ git clone https://github.com/Harika-BV/Whatsapp-Expense-Tracker.git
 cd Whatsapp-Expense-Tracker
 ```
 
-<br>
-
 ## 🐍 2. Create & Activate Virtual Environment
 ```sh
 python -m venv venv        # Create virtual environment
@@ -28,22 +26,16 @@ source venv/bin/activate   # Activate (Mac/Linux)
 venv\Scripts\activate      # Activate (Windows)
 ```
 
-<br>
-
 ## 📦 3. Install Dependencies
 ```sh
 pip install -r requirements.txt
 ```
-
-<br>
 
 ## 🔑 4. Set Up Environment Variables
 ```sh
 OPENAI_API_KEY="your-openai-key"
 GOOGLE_SHEETS_CREDENTIALS="your-google-credentials.json"
 ```
-
-<br>
 
 ## 📜 5. Google Sheets Setup
 <p>1️⃣ Create a Google Service Account</p>
@@ -55,8 +47,6 @@ Ensure your Google Sheet has these columns:
 |------------|--------|----------|--------------|
 | 2025-03-08 | ₹250   | Food     | Pizza dinner |
 
-<br>
-
 ## 🛠 6. Test Locally with Ngrok
 ### Start the Flask Server
 ```sh
@@ -67,8 +57,6 @@ python src/app.py
 ```sh
 ngrok http 500
 ```
-<br>
-
 
 ## 📞 8. Connect Twilio Webhook
 
@@ -81,7 +69,6 @@ ngrok http 500
 ```
 https://your-ngrok-url/webhook
 ```
-<br>
 
 ## 🎯 9. How to Use
 Once the bot is live, you can interact with it via WhatsApp. Just send a message to your Twilio number, and the bot will process your request using AI.
@@ -97,8 +84,6 @@ Spent ₹250 on pizza today
 ### 💾 What happens?
 - The bot extracts the amount, category, and date.
 - It logs the expense in Google Sheets automatically.
-
-<br>
 
 ## 📲 How to Text on WhatsApp to Your Twilio Number
 - Get your Twilio number from your Twilio console.
