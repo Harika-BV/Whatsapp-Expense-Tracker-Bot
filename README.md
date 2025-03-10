@@ -1,5 +1,7 @@
 # 📌 WhatsApp Expense Tracker
 
+![alt text](chatbot.png)
+
 A simple **WhatsApp-based Expense Tracker** 📊💰 powered by **OpenAI**, **Google Sheets**, and **Twilio**.  
 Log your expenses directly from WhatsApp and get expense summaries instantly! 🚀  
 
